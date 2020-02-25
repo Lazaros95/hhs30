@@ -1,57 +1,58 @@
+
 html{
-  height: 100%;
+ height: 100%;
 
 }
 
 
 .landing-page{
 
-  background: url(images/wildlife-photography-of-tiger-951007.jpg);
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-  background-position: center;
-  filter: brightness(60%);
-  background-repeat: no-repeat;
+ background: url(images/wildlife-photography-of-tiger-951007.jpg);
+ /* background-repeat: no-repeat; */
+ background-size: cover;
+ background-position: center;
+ filter: brightness(60%);
+ background-repeat: no-repeat;
 }
 
 .navbar{
-    opacity: .6;
+   opacity: .6;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(240, 248, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(240, 248, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand,
 .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link{
-  color: aliceblue;
-  font-family: 'Raleway';
-  text-shadow: 1px 1px 2px black, 0 0 25px #bbbbbb, 0 0 5px rgb(62, 62, 168);
+ color: aliceblue;
+ font-family: 'Raleway';
+ text-shadow: 1px 1px 2px black, 0 0 25px #bbbbbb, 0 0 5px rgb(62, 62, 168);
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(114, 160, 187, 0.452);
+ color: rgba(114, 160, 187, 0.452);
 }
 .navbar-light .navbar-nav .nav-link.active {
-  color: aliceblue;
+ color: aliceblue;
 }
 
 .bg-light {
-  background-color: #1f578e !important;
+ background-color: #1f578e !important;
 }
 
 .pretext{
-  font-size: 3.0rem;
-  padding-bottom: 5%;
+ font-size: 3.0rem;
+ padding-bottom: 5%;
 }
 
 .start-text{
-  text-align: center;
-  padding-top: 7%;
-  color: aliceblue;
-  font-family: 'Raleway';
-  text-shadow: 1px 1px 2px black, 0 0 25px #bbbbbb, 0 0 5px darkblue;
+ text-align: center;
+ padding-top: 7%;
+ color: aliceblue;
+ font-family: 'Raleway';
+ text-shadow: 1px 1px 2px black, 0 0 25px #bbbbbb, 0 0 5px darkblue;
 
 }
 
@@ -61,102 +62,204 @@ text-align: center;
 
 .center-text,
 .comm-center-text{
-  font-family: "Eagle Lake";
-  /* font-size: 5.0rem; */
-  font-weight: bold;
-  color: #5287bd;
-  text-shadow: 1px 1px 2px black, 0 0 25px #bbbbbb, 0 0 5px darkblue;
+ font-family: "Eagle Lake";
+ /* font-size: 5.0rem; */
+ font-weight: bold;
+ color: #5287bd;
+ text-shadow: 1px 1px 2px black, 0 0 25px #bbbbbb, 0 0 5px darkblue;
+}
+
+.comm-div{
+  padding-top: 5%;
 }
 
 .center-text-lower{
-  font-style: italic;
-  font-size: 3.0rem;
+ font-style: italic;
+ font-size: 3.0rem;
 }
 
 .container {
-  max-width: 50%;
-  margin: 40px auto;
+ max-width: 50%;
+ margin: 40px auto;
 }
 
 .hr-text {
-  line-height: 1em;
-  position: relative;
-  outline: 0;
-  border: 0;
-  color: aliceblue;
-  text-align: center;
-  height: 1.5em;
-  opacity: .5;
-  padding-top: 20px;
-  padding-bottom: 52px;
-  }
-  .hr-text::before {
-    content: '';
+ line-height: 1em;
+ position: relative;
+ outline: 0;
+ border: 0;
+ color: aliceblue;
+ text-align: center;
+ height: 1.5em;
+ opacity: .5;
+ padding-top: 20px;
+ padding-bottom: 52px;
+ }
+ .hr-text::before {
+   content: '';
 
-    /* background: linear-gradient(to right, transparent, aliceblue, transparent); */
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 3px;
-  }
-  .hr-text::after {
-    content: attr(data-content);
-    position: relative;
-    display: inline-block;
-    /* color: black; */
+   /* background: linear-gradient(to right, transparent, aliceblue, transparent); */
+   position: absolute;
+   left: 0;
+   top: 50%;
+   width: 100%;
+   height: 3px;
+ }
+ .hr-text::after {
+   content: attr(data-content);
+   position: relative;
+   display: inline-block;
+   /* color: black; */
 
-    padding: 0 .5em;
-    line-height: 1.5em;
+   padding: 0 .5em;
+   line-height: 1.5em;
 
-    color: #738598;
-    background-color: #fcfcfa;
-    font-size: 3.0rem;
-    border-radius: 50%;
-  }
+   color: #738598;
+   background-color: #fcfcfa;
+   font-size: 3.0rem;
+   border-radius: 50%;
+ }
 
-  /* Small devices (landscape phones, 576px and up) */
+ /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {  h1 {
-  font-size: 2.5rem;
+ font-size: 2.5rem;
 }}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { h1 {
-  font-size: 3.5rem;
+ font-size: 3.5rem;
 }}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { h1 {
-  font-size: 4.5rem;
+ font-size: 4.5rem;
 }}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 h1 {
-  font-size: 5.0rem;
+ font-size: 5.0rem;
 }}
 /* H2 text */
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {  .center-text-lower {
-  font-size: 2.0rem;
+ font-size: 2.0rem;
 }}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { .center-text-lower {
-  font-size: 2.5rem;
+ font-size: 2.5rem;
 }}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { .center-text-lower {
-  font-size: 3.0rem;
+ font-size: 3.0rem;
 }}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 .center-text-lower {
-  font-size: 3.0rem;
+ font-size: 3.0rem;
 }}
 
 
-/* YOUTUBE VIDEOS */
+/* COMMITTEE PAGE */
 
+/* DIV BACKGROUND COLORS */
+
+.comm-div,
+.ladFaulk-cont,
+.rosWhite-cont,
+.samScott-cont{
+  background-color: white;
+
+}
+
+.com-prof-pic{
+    border-radius: 50%
+}
+
+.row-pad{
+  padding-top: 3%
+}
+
+.vicPratt,
+.ladFaulk,
+.rosWhite,
+.teoSmith,
+.kamMccul,
+.samScott{
+  padding-top: 10%
+}
+
+.vicPratt-cont,
+.kamMccul-cont,
+.teoSmith-cont,
+.foot-cont{
+  background-color: #5287bd;
+}
+
+.teoSmith{
+  align-content: center;
+}
+.container-fluid{
+  padding: 3% 3%;
+
+}
+.comm-pix{
+  padding-top: 7%;
+  font-family: "Raleway";
+  font-size: 2.0rem;
+  text-align: center;
+}
+
+h2[class$="-hd"]{
+  font-size: 3.0rem;
+}
+div[class$="-cont"]{
+  position: relative;
+}
+
+.row{
+  max-height: 450px;
+}
+
+.com-prof-pic{
+  max-width: 65%;
+  max-height: 60%;
+
+
+}
+
+
+
+.rosWhite-pic{
+  max-width: 60%;
+  max-height: 50%;
+  border-radius: 50%;
+
+
+}
+
+
+.teoSmith-pic{
+  max-width: 65%;
+  max-height: 60%;
+  border-radius: 50%;
+
+
+}
+
+.samScott-pic{
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 50%;
+
+
+}
+
+.foot-cont{
+  position: absolute;
+  width: 100%;
+
+}
